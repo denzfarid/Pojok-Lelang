@@ -23,13 +23,19 @@ Pojok Lelang merupakan website lelang online yang memungkinkan para penggemar me
 Clone the project
 
 ```bash
-  git clone https://github.com/r-aozora/Pojok-Lelang.git
+  git clone https://github.com/denzfarid/Pojok-Lelang.git
 ```
 
 Go to the project directory
 
 ```bash
   cd Pojok-Lelang
+```
+
+```bash
+docker-compose build
+docker-compose up -d
+docker exec -it Pojok-Lelang bash
 ```
 
 Install dependencies
@@ -62,9 +68,3 @@ Start the server
   php artisan key:generate
   php artisan serve
 ```
-
-## Authors
-
-- [@r-aozora](https://github.com/r-aozora)
-- [@codezeros18](https://github.com/codezeros18)
-- [@cykmila](https://github.com/cykmila)
