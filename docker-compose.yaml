@@ -1,0 +1,18 @@
+version: '3.5'
+
+services:
+  lelang-app:
+    build:
+      context: '.'
+      args:
+        uid: ${UID}
+    container_name: lelang-app
+    ports:
+      - 80:80
+      - 443:443
+    environment:
+      - APACHE_RUN_USER=#1000
+      - APACHE_RUN_GROUP=#1000
+    volumes:
+      - .:/var/www/html
+      - /opt/ssl:/etc/apache2/ssl/

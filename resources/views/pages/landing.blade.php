@@ -49,7 +49,7 @@
                                             </p>
                                             <div class="btn-group">
                                                 @if (Auth::check())
-                                                    <a href="{{ url('gallery/'.$product1->id) }}" type="button" class="btn btn-sm text-white" style="background-color: #055E68; border-radius:20px">Ikut Lelang</a>
+                                                    <a href="{{ url('gallery/'.$product3->id) }}" type="button" class="btn btn-sm text-white" style="background-color: #055E68; border-radius:20px">Ikut Lelang</a>
                                                 @else
                                                     <a href="{{ url('/login') }}" type="button" class="btn btn-sm text-white" style="background-color: #055E68; border-radius:20px">Ikut Lelang</a>
                                                 @endif

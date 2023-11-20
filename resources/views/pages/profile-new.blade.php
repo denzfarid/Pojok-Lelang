@@ -182,8 +182,7 @@
                                                                         </div>
                                                                         <div class="list-group modal-body">
                                                                             <p>Pilih kontak Admin untuk checkout</p>
-                                                                            <a href="https://wa.me/+6289513886227" target="blank_" type="button" class="list-group-item list-group-item-action"><i class="bi bi-whatsapp" style="color: #128C7E"></i> Whatsapp</a> 
-                                                                            <a href="https://wa.me/+6281284818862" target="blank_" type="button" class="list-group-item list-group-item-action"><i class="bi bi-whatsapp" style="color: #128C7E"></i> Whatsapp</a> 
+                                                                            <a href="https://wa.me/+6281911157893" target="blank_" type="button" class="list-group-item list-group-item-action"><i class="bi bi-whatsapp" style="color: #128C7E"></i> Whatsapp Ata</a> 
                                                                         </div>
                                                                     </div>
                                                                 </div>

@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Barang;
 use App\Models\History;
-use App\Models\lelang;
+use App\Models\Lelang;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 

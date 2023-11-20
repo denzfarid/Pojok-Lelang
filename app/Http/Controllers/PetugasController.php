@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Session;
 
-class petugasController extends Controller
+class PetugasController extends Controller
 {
     /**
      * Display a listing of the resource.
